@@ -1,11 +1,9 @@
-import foodImage from './food.webp';
-
-function createHomePageContent() {
+function createAboutPageContent() {
     const element = document.getElementById('content');
     element.textContent = '';
 
     const heading = document.createElement('h1');
-    heading.textContent = "An beautiful new restaurant";
+    heading.textContent = "About page";
     element.appendChild(heading);
 
     const paragraph = document.createElement('p');
@@ -20,4 +18,4 @@ function createHomePageContent() {
     return element;
 }
 
-export { createHomePageContent }
+export { createAboutPageContent }

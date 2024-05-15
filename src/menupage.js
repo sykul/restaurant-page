@@ -1,5 +1,6 @@
-function createMenupageContent() {
+function createMenuPageContent() {
     const element = document.getElementById('content');
+    element.textContent = '';
 
     const heading = document.createElement('h1');
     heading.textContent = "Look at our menu";
@@ -12,4 +13,4 @@ function createMenupageContent() {
     return element;
 }
 
-export { createMenupageContent }
+export { createMenuPageContent }
